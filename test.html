@@ -1,0 +1,11 @@
+{%  extends 'User_main/common/header.html' %}
+{% load staticfiles %}
+{% block main %}
+
+<div class="col-md-12">
+    <div class="container">
+        {% for list in User_list %}
+            {{ list.name }} <br>
+        {% endfor %}
+    </div>
+</div>

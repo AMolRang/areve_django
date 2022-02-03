@@ -1,0 +1,6 @@
+*.pyc
+db.mysql
+myvenv
+__pycache__
+local_settings.py
+django.db.backends.mysql
